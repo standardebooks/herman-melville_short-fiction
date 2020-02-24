@@ -64,6 +64,12 @@ footer{
 	font-variant: small-caps;
 }
 
+#the-encantadas-4 img{
+	display: block;
+	width: 1.5em;
+	margin: 0 auto;
+}
+
 #benito-cereno blockquote{
 	margin-left: 0;
 	margin-right: 0;
