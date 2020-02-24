@@ -31,10 +31,6 @@ span[epub|type~="subtitle"]{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:verse"] p + p{
-	margin-top: 1em;
-}
-
 [epub|type~="z3998:verse"] p > span{
 	display: block;
 	text-indent: -1em;
@@ -50,6 +46,11 @@ p span.i1{
 	padding-left: 2em;
 }
 
+p span.i3{
+	text-indent: -1em;
+	padding-left: 4em;
+}
+
 [epub|type~="z3998:letter"] header,
 footer{
 	text-align: right;
@@ -62,6 +63,10 @@ footer{
 .signature,
 [epub|type~="z3998:recipient"]{
 	font-variant: small-caps;
+}
+
+[epub|type~="z3998:postscript"]{
+	text-align: left;
 }
 
 #the-encantadas-4 img{
