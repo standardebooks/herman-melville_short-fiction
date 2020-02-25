@@ -46,7 +46,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/53861</dc:source>
 		<dc:source>https://archive.org/details/piazztales00melvrich</dc:source>
 		<dc:source>https://archive.org/details/appletree00melvrich</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<meta property="se:production-notes">Publication order as per https://en.wikipedia.org/wiki/Herman_Melville_bibliography#Short_stories. “Daniel Orme” and “The Two Temples” were collected in “Billy Budd, and Other Stories” in 1924, but scans and transcriptions currently don’t seem to exist so haven’t been included here.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Short_fiction</meta>
