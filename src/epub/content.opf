@@ -101,6 +101,7 @@
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
+		<item href="images/illustration-1.svg" id="illustration-1.svg" media-type="image/svg+xml"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
 		<item href="text/bartleby.xhtml" id="bartleby.xhtml" media-type="application/xhtml+xml"/>
@@ -114,7 +115,7 @@
 		<item href="text/poor-mans-pudding-and-rich-mans-crumbs.xhtml" id="poor-mans-pudding-and-rich-mans-crumbs.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-apple-tree-table.xhtml" id="the-apple-tree-table.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-bell-tower.xhtml" id="the-bell-tower.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/the-encantadas.xhtml" id="the-encantadas.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-encantadas.xhtml" id="the-encantadas.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/the-fiddler.xhtml" id="the-fiddler.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-gees.xhtml" id="the-gees.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-happy-failure.xhtml" id="the-happy-failure.xhtml" media-type="application/xhtml+xml"/>
