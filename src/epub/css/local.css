@@ -17,6 +17,7 @@ td{
 td:last-child{
 	text-align: right;
 }
+
 tfoot td:last-child{
 	border-top: 1px solid;
 }
