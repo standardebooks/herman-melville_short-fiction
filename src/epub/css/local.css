@@ -99,6 +99,10 @@ footer{
 	font-style: italic;
 }
 
+#benito-cereno .supplemental i{
+	font-style: normal;
+}
+
 #benito-cereno .signature + .signature{
 	text-align: left;
 }

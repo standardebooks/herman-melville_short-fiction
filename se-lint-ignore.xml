@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="benito-cereno.xhtml">
+		<ignore>
+			<code>s-038</code>
+			<reason>These asterisks don’t represent elisions and match the original scans.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
