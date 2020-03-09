@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/herman-melville/short-fiction</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2020-03-09T23:09:23Z</dc:date>
+		<meta property="dcterms:modified">2020-03-09T23:09:23Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -39,8 +39,8 @@
 		<meta property="se:subject">Shorts</meta>
 		<dc:description id="description">A collection of Herman Melvilles’s short stories, ordered by date of publication.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Melville’s pen ranges far and wide in this collection of his short stories and novellas, with subjects including a faraway mountain lodge, a magnificent rooster, a haunted table, and of course the inimitable scrivener Bartleby, whose tale is now viewed as one of the great English short stories. While his earlier novels had been well received, by this point in his career he star had waned, and it was only in the early twentieth century that his work, including these short stories, started to get the recognition it still enjoys today.&lt;/p&gt;
-			&lt;p&gt;This volume collects Melville’s short stories verified to be in the public domain, in the order they were originally published in &lt;i&gt;Harper’s New Monthly Magazine&lt;/i&gt; and &lt;i&gt;Putnam’s Monthly Magazine&lt;/i&gt; (along with “The Piazza” which was written for the collection &lt;i&gt;The Piazza Tales&lt;/i&gt;). The racism displayed in “Benito Cereno” against the African slaves is somewhat shocking to modern readers given our greater understanding of their story, but was common in the mid-nineteenth century.&lt;/p&gt;
+			&lt;p&gt;Melville’s pen ranges far and wide in this collection of his short stories and novellas, with subjects including a faraway mountain lodge, a magnificent rooster, a haunted table, and of course the inimitable scrivener Bartleby, whose tale is now viewed as one of the great English short stories. While his earlier novels had been well received, by this point in his career his star had waned, and it was only in the early twentieth century that his work, including these short stories, started to get the recognition it still enjoys today.&lt;/p&gt;
+			&lt;p&gt;This volume collects Melville’s short stories verified to be in the US public domain, in the order they were originally published in &lt;i&gt;Harper’s New Monthly Magazine&lt;/i&gt; and &lt;i&gt;Putnam’s Monthly Magazine&lt;/i&gt; (along with “The Piazza” which was written for the collection &lt;i&gt;The Piazza Tales&lt;/i&gt;). The racism displayed in “Benito Cereno” against the African slaves is somewhat shocking to modern readers given our greater understanding of their story, but was common in the mid-nineteenth century.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/15859</dc:source>
@@ -48,8 +48,8 @@
 		<dc:source>https://archive.org/details/piazztales00melvrich</dc:source>
 		<dc:source>https://archive.org/details/appletree00melvrich</dc:source>
 		<meta property="se:production-notes">Publication order as per https://en.wikipedia.org/wiki/Herman_Melville_bibliography#Short_stories. “Daniel Orme” and “The Two Temples” were collected in “Billy Budd, and Other Stories” in 1924, but scans and transcriptions currently don’t seem to exist so haven’t been included here.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">133967</meta>
+		<meta property="se:reading-ease.flesch">67.08</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Short_fiction</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/herman-melville_short-fiction</meta>
 		<dc:creator id="author">Herman Melville</dc:creator>
@@ -94,6 +94,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
