@@ -2,15 +2,26 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 figure{
-	margin: 1em 2em;
+	margin: 1em auto;
+}
+
+figure img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+figure + p{
+	text-indent: 0;
 }
 
 table{
 	border-collapse: collapse;
+	margin: 1em auto;
 	width: 100%;
 }
 
-td{
+tr + tr td{
 	padding: .25em 0 0;
 }
 
@@ -82,9 +93,7 @@ footer{
 }
 
 #the-encantadas-4 img{
-	display: block;
 	width: 1.5em;
-	margin: 0 auto;
 }
 
 #benito-cereno blockquote{
@@ -95,7 +104,7 @@ footer{
 #benito-cereno blockquote header{
 	text-align: center;
 	font-style: italic;
-	margin-bottom: .5em;
+	margin-bottom: 1em;
 }
 
 #benito-cereno blockquote header .signature{
