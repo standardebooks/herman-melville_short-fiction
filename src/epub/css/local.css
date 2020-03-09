@@ -27,6 +27,13 @@ span[epub|type~="subtitle"]{
 	font-weight: normal;
 }
 
+/* All epigraphs */
+[epub|type~="epigraph"]{
+	font-style: italic;
+	hyphens: none;
+}
+/* End all epigraphs */
+
 [epub|type~="z3998:verse"] p{
 	text-align: left;
 	text-indent: 0;
