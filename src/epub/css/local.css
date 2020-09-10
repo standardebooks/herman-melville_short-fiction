@@ -94,7 +94,7 @@ footer{
 	font-style: italic;
 }
 
-.signature,
+[epub:type~="z3998:signature"],
 [epub|type~="z3998:recipient"]{
 	font-variant: small-caps;
 }
@@ -118,7 +118,7 @@ footer{
 	margin-bottom: 1em;
 }
 
-#benito-cereno blockquote header .signature{
+#benito-cereno blockquote header [epub:type~="z3998:signature"]{
 	font-style: normal;
 }
 
@@ -130,6 +130,6 @@ footer{
 	font-style: normal;
 }
 
-#benito-cereno .signature + .signature{
+#benito-cereno [epub:type~="z3998:signature"] + [epub:type~="z3998:signature"]{
 	text-align: left;
 }
