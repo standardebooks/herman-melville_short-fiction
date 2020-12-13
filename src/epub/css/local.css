@@ -17,6 +17,7 @@ figure + p{
 
 table{
 	border-collapse: collapse;
+	font-variant-numeric: tabular-nums;
 	margin: 1em auto;
 	width: 100%;
 }
@@ -85,8 +86,12 @@ p span.i3{
 	padding-left: 4em;
 }
 
-[epub|type~="z3998:letter"] header,
+[epub|type~="z3998:letter"] header{
+	text-align: right;
+}
+
 footer{
+	margin-top: 1em;
 	text-align: right;
 }
 
