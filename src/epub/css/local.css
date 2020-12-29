@@ -47,7 +47,7 @@ article > header [epub|type~="epigraph"]{
 	display: inline-block;
 	margin: auto;
 	max-width: 80%;
-	text-align: left;
+	text-align: initial;
 }
 
 @supports(display: table){
@@ -58,7 +58,7 @@ article > header [epub|type~="epigraph"]{
 /* End epigraphs in section headers */
 
 [epub|type~="z3998:verse"] p{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
@@ -109,7 +109,7 @@ footer{
 }
 
 [epub|type~="z3998:postscript"]{
-	text-align: left;
+	text-align: initial;
 }
 
 #the-encantadas-4 img{
@@ -140,5 +140,5 @@ footer{
 }
 
 #benito-cereno [epub|type~="z3998:signature"] + [epub|type~="z3998:signature"]{
-	text-align: left;
+	text-align: initial;
 }
