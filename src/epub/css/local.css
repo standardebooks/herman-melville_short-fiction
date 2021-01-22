@@ -11,10 +11,6 @@ figure img{
 	max-width: 100%;
 }
 
-figure + p{
-	text-indent: 0;
-}
-
 table{
 	border-collapse: collapse;
 	font-variant-numeric: tabular-nums;
