@@ -122,9 +122,9 @@ footer{
 }
 
 #benito-cereno blockquote header{
-	text-align: center;
 	font-style: italic;
 	margin-bottom: 1em;
+	text-align: center;
 }
 
 #benito-cereno blockquote header [epub|type~="z3998:signature"]{
