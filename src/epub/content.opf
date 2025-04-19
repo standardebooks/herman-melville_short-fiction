@@ -84,8 +84,8 @@
 		<dc:contributor id="transcriber-7">Eric Lehtonen</dc:contributor>
 		<meta property="file-as" refines="#transcriber-7">Lehtonen, Eric</meta>
 		<meta property="role" refines="#transcriber-7" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-8">The Online Distributed Proofreading Team</dc:contributor>
-		<meta property="file-as" refines="#transcriber-8">Online Distributed Proofreading Team, The</meta>
+		<dc:contributor id="transcriber-8">Distributed Proofreaders</dc:contributor>
+		<meta property="file-as" refines="#transcriber-8">Distributed Proofreaders</meta>
 		<meta property="role" refines="#transcriber-8" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Whittleton, Robin</meta>
