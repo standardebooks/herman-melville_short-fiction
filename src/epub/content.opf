@@ -50,7 +50,7 @@
 		<dc:source>https://archive.org/details/piazztales00melvrich</dc:source>
 		<dc:source>https://archive.org/details/appletree00melvrich</dc:source>
 		<meta property="se:production-notes">Publication order as per https://en.wikipedia.org/wiki/Herman_Melville_bibliography#Short_stories. “Daniel Orme” and “The Two Temples” were collected in “Billy Budd, and Other Stories” in 1924, but scans and transcriptions currently don’t seem to exist so haven’t been included here.</meta>
-		<meta property="se:word-count">133960</meta>
+		<meta property="se:word-count">133006</meta>
 		<meta property="se:reading-ease.flesch">67.08</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Herman_Melville_bibliography#Short_stories</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/herman-melville_short-fiction</meta>
