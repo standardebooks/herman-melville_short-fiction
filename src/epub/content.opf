@@ -47,9 +47,11 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/15859</dc:source>
 		<dc:source>https://www.gutenberg.org/ebooks/53861</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/76513</dc:source>
 		<dc:source>https://archive.org/details/piazztales00melvrich</dc:source>
 		<dc:source>https://archive.org/details/appletree00melvrich</dc:source>
-		<meta property="se:production-notes">Publication order as per https://en.wikipedia.org/wiki/Herman_Melville_bibliography#Short_stories. “Daniel Orme” and “The Two Temples” were collected in “Billy Budd, and Other Stories” in 1924, but scans and transcriptions currently don’t seem to exist so haven’t been included here.</meta>
+		<dc:source>https://archive.org/details/billybuddotherpr0000herm</dc:source>
+		<meta property="se:production-notes">Publication order as per https://en.wikipedia.org/wiki/Herman_Melville_bibliography#Short_stories.</meta>
 		<meta property="se:word-count">133006</meta>
 		<meta property="se:reading-ease.flesch">67.08</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Herman_Melville_bibliography#Short_stories</meta>
@@ -84,9 +86,18 @@
 		<dc:contributor id="transcriber-7">Eric Lehtonen</dc:contributor>
 		<meta property="file-as" refines="#transcriber-7">Lehtonen, Eric</meta>
 		<meta property="role" refines="#transcriber-7" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-8">Distributed Proofreaders</dc:contributor>
-		<meta property="file-as" refines="#transcriber-8">Distributed Proofreaders</meta>
+		<dc:contributor id="transcriber-8">Chris Hapka</dc:contributor>
+		<meta property="file-as" refines="#transcriber-8">Hapka, Chris</meta>
 		<meta property="role" refines="#transcriber-8" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-9">Distributed Proofreaders</dc:contributor>
+		<meta property="file-as" refines="#transcriber-9">Distributed Proofreaders</meta>
+		<meta property="role" refines="#transcriber-9" scheme="marc:relators">trc</meta>
+		<dc:contributor id="editor">Raymond Weaver</dc:contributor>
+		<meta property="file-as" refines="#editor">Weaver, Raymond</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#editor">https://en.wikipedia.org/wiki/Raymond_Weaver</meta>
+		<meta property="se:name.person.full-name" refines="#editor">Raymond Melbourne Weaver</meta>
+		<meta property="se:url.authority.nacoaf" refines="#editor">http://id.loc.gov/authorities/names/nr89005459</meta>
+		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
 		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Whittleton, Robin</meta>
 		<meta property="se:url.homepage" refines="#producer-1">https://www.robinwhittleton.com/</meta>
