@@ -139,6 +139,7 @@ footer{
 	font-style: normal;
 }
 
-#benito-cereno [epub|type~="z3998:signature"] + [epub|type~="z3998:signature"]{
+#benito-cereno [epub|type~="z3998:signature"] + [epub|type~="z3998:signature"],
+#endnotes [epub|type~="z3998:recipient"]{
 	text-align: initial;
 }
