@@ -55,6 +55,27 @@ article > header [epub|type~="epigraph"]{
 }
 /* End epigraphs in section headers */
 
+/* Centered dedications (minus full-page styling) */
+section[epub|type~="dedication"]{
+	text-align: center;
+}
+
+section[epub|type~="dedication"] > *{
+	display: inline-block;
+	margin: auto;
+	margin-top: 3em;
+	max-width: 80%;
+}
+/* End centered dedications */
+
+section[epub|type~="dedication"] p{
+	font-variant: all-small-caps;
+}
+
+section[epub|type~="dedication"] b{
+	font-size: 1.5em;
+}
+
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
