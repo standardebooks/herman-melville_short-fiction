@@ -38,18 +38,40 @@ tfoot td:last-child{
 	hyphens: none;
 	-epub-hyphens: none;
 }
+
+[epub|type~="epigraph"] em,
+[epub|type~="epigraph"] i{
+	font-style: normal;
+}
+
+[epub|type~="epigraph"] cite{
+	font-style: normal;
+	font-variant: small-caps;
+	margin-top: 1em;
+}
+
+[epub|type~="epigraph"] cite i{
+	font-style: italic;
+}
 /* End all epigraphs */
 
 /* Epigraphs in section headers */
-article > header [epub|type~="epigraph"]{
+article > header [epub|type~="epigraph"],
+section > header [epub|type~="epigraph"]{
 	display: inline-block;
 	margin: auto;
 	max-width: 80%;
 	text-align: initial;
 }
 
+article > header [epub|type~="epigraph"] + *,
+section > header [epub|type~="epigraph"] + *{
+	margin-top: 3em;
+}
+
 @supports(display: table){
-	article > header [epub|type~="epigraph"]{
+	article > header [epub|type~="epigraph"],
+	section > header [epub|type~="epigraph"]{
 		display: table;
 	}
 }
@@ -103,6 +125,12 @@ p span.i1{
 p span.i3{
 	padding-left: 4em;
 	text-indent: -1em;
+}
+
+[epub|type~="z3998:verse"] header > p{
+	font-variant: small-caps;
+	margin: 1em;
+	text-align: center;
 }
 
 [epub|type~="z3998:letter"] header{
