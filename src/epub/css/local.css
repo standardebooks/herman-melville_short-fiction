@@ -39,19 +39,10 @@ tfoot td:last-child{
 	-epub-hyphens: none;
 }
 
-[epub|type~="epigraph"] em,
-[epub|type~="epigraph"] i{
-	font-style: normal;
-}
-
 [epub|type~="epigraph"] cite{
 	font-style: normal;
 	font-variant: small-caps;
 	margin-top: 1em;
-}
-
-[epub|type~="epigraph"] cite i{
-	font-style: italic;
 }
 /* End all epigraphs */
 
@@ -62,11 +53,6 @@ section > header [epub|type~="epigraph"]{
 	margin: auto;
 	max-width: 80%;
 	text-align: initial;
-}
-
-article > header [epub|type~="epigraph"] + *,
-section > header [epub|type~="epigraph"] + *{
-	margin-top: 3em;
 }
 
 @supports(display: table){
