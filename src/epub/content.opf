@@ -62,6 +62,13 @@
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79006936</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<dc:contributor id="editor">Raymond Weaver</dc:contributor>
+		<meta property="file-as" refines="#editor">Weaver, Raymond</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#editor">https://en.wikipedia.org/wiki/Raymond_Weaver</meta>
+		<meta property="se:name.person.full-name" refines="#editor">Raymond Melbourne Weaver</meta>
+		<meta property="se:url.authority.nacoaf" refines="#editor">http://id.loc.gov/authorities/names/nr89005459</meta>
+		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
+		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
 		<dc:contributor id="artist">Albertus Verhoesen</dc:contributor>
 		<meta property="file-as" refines="#artist">Verhoesen, Albertus</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
@@ -92,13 +99,6 @@
 		<dc:contributor id="transcriber-9">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-9">Distributed Proofreaders</meta>
 		<meta property="role" refines="#transcriber-9" scheme="marc:relators">trc</meta>
-		<dc:contributor id="editor">Raymond Weaver</dc:contributor>
-		<meta property="file-as" refines="#editor">Weaver, Raymond</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#editor">https://en.wikipedia.org/wiki/Raymond_Weaver</meta>
-		<meta property="se:name.person.full-name" refines="#editor">Raymond Melbourne Weaver</meta>
-		<meta property="se:url.authority.nacoaf" refines="#editor">http://id.loc.gov/authorities/names/nr89005459</meta>
-		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
-		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Whittleton, Robin</meta>
 		<meta property="se:url.homepage" refines="#producer-1">https://www.robinwhittleton.com/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
