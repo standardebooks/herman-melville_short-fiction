@@ -52,8 +52,8 @@
 		<dc:source>https://archive.org/details/appletree00melvrich</dc:source>
 		<dc:source>https://archive.org/details/billybuddotherpr0000herm</dc:source>
 		<meta property="se:production-notes">Publication order as per https://en.wikipedia.org/wiki/Herman_Melville_bibliography#Short_stories.</meta>
-		<meta property="se:word-count">133006</meta>
-		<meta property="se:reading-ease.flesch">67.08</meta>
+		<meta property="se:word-count">170812</meta>
+		<meta property="se:reading-ease.flesch">58.01</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Herman_Melville_bibliography#Short_stories</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/herman-melville_short-fiction</meta>
 		<dc:creator id="author">Herman Melville</dc:creator>
