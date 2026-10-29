@@ -42,7 +42,7 @@
 		<meta property="schema:additionalType">http://schema.org/Collection</meta>
 		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Gateway to the Great Books</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
-		<meta property="schema:hasPart" refines="#collection-1" id="collection-1-entry-1">schema:hasPart</meta>
+		<meta id="collection-1-entry-1" property="schema:hasPart" refines="#collection-1">schema:hasPart</meta>
 		<meta property="rdf:type" refines="#collection-1-entry-1">http://schema.org/CreativeWork</meta>
 		<meta property="schema:name" refines="#collection-1-entry-1">Billy Budd</meta>
 		<meta property="schema:abstract">A collection of Herman Melville’s short stories, ordered by date of publication.</meta>
@@ -76,7 +76,6 @@
 		<meta property="schema:alternateName" refines="#editor">Raymond Melbourne Weaver</meta>
 		<link href="https://id.loc.gov/authorities/names/nr89005459.html" refines="#editor" rel="schema:sameAs"/>
 		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
-		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
 		<dc:contributor id="artist">Albertus Verhoesen</dc:contributor>
 		<meta property="file-as" refines="#artist">Verhoesen, Albertus</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
@@ -106,7 +105,9 @@
 		<meta property="role" refines="#transcriber-8" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-9">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-9">Distributed Proofreaders</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-9" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-9" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Whittleton, Robin</meta>
 		<link href="https://www.robinwhittleton.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
